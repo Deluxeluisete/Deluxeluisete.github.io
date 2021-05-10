@@ -1,5 +1,6 @@
 'use strict';
-gestionarFicheroXML()
-{
-alert()
-}
+loadDocA("libros.xml","xml")
+    function gestionarFicheroXML(xmldoc)
+    {
+        alert(xmldoc)
+    }
