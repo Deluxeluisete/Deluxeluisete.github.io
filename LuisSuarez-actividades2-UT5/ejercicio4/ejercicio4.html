@@ -1,0 +1,30 @@
+<!DOCTYPE>
+<html>
+    <head>
+        <meta charset="UTF-8"/>
+        <title>Leer fichero XML y TXT</title>
+	<link href="ejercicio4.css" type="text/css" rel="stylesheet" media="all" />
+    </head>
+    <body>
+		<div class="capa">Cargar fichero XML
+		<div id="ficheroXML">
+            <form>
+                <p>Usuario: <input type="text" id="Usuario" size="40"></p>
+                <p>Email: <input type="email" id="correo" size="40"></p>
+                
+                <p>Contraseña: <input type="text" id="contraseña" size="40"></p>
+                <p>Repita la contraseña: <input type="text" id="contraseña2" size="40"></p>
+                <p>Nombre: <input type="text" id="Nombre" size="40"></p>
+                <p>Apellidos: <input type="text" id="Apellidos" size="40"></p>
+                <p>Edad: <input type="number" id="Edad" size="40"></p>
+                <p>Telefono: <input type="number" id="Telefono" size="40"></p>
+                <p><input type="submit" onclick='return ValidarFormulario()' value="Enviar"> </p>
+
+            </form>
+            <div id='error'></div>
+        </div>
+    </div>
+        <script src="ejercicio4.js"></script>
+
+	</body>
+</html>

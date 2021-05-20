@@ -1,0 +1,11 @@
+.capa{
+    justify-content: center;
+     align-items:center;
+     text-align: center;
+     background-color: indigo;
+     border-radius: 50px;
+     border-width: 5px;
+     border-style: solid;
+     border-color: blue;
+     background: linear-gradient(to bottom, orange , white);
+ }
