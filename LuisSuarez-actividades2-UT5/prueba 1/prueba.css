@@ -1,0 +1,13 @@
+table {
+}
+td {
+    padding: 2px;
+    border: 1px solid #dadada;
+}
+th {
+    padding: 2px;
+    border: 1px solid #dadada;
+}
+.EvenRow {
+    /*	background-color: yellow;*/
+}
